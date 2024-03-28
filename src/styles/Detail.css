@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+ background-color: light grey;
+ color: #192F60;
+}
+.main-head{
+    background-color:red;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    padding: 15px 50px;
+}
+.logo-head{
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px 15px;
+}
+.logo{
+   margin-bottom: 0px;
+    width: 40px;
+    height: 40PX;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+.btn{
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 6px 10px;
+}
+.create{
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.img{
+
+width: 1130px;
+height: 353px;
+opacity: 1;
+transform: scale(1.5);
+overflow: hidden;
+}
+
+.middle{
+    width:1130px;
+    /* height: 350px; */
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+   
+}
+.text{
+    font-size: 30px;
+    color:#192F60;
+    font-weight: 600;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 40px;
+    margin-bottom: 0px;   
+}
+.three{
+    margin-top: 130px;
+}
+.two> button{
+   background-color: transparent;
+   border: none;
+   margin-left: 20px;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 0; 
+}
+.place{
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+.hr{
+    border: 1px solid darkblue;
+    margin: 5px;
+}
+.cusine{
+    font-size: 18px;
+    font-weight: bold;
+}
+.bekary{
+    font-size: 16px;
+}
+.avg{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cost{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.Gallery {
+    position: relative;
+    text-align: end;
+    margin-left: 75%;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+}

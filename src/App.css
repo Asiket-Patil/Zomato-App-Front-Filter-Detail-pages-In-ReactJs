@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+  font-weight: bold;
+  color: red;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 20px;
+  font-size: 64px;
+}
+.create{
+  margin: 10px 40px;
+}
+.search{
+  width:100%;
+}
+.image{
+width: 100%;
+height:150px;
+transform: scale(1.5),translateX(15px);
+border-radius: 5%;
+
+
+}
+.zoom{
+  overflow: hidden;
+  width:90%;
+ 
+}
+.main{
+  background-image: linear-gradient(transparent, #170505dc),url(../src/Assets/shutterstock_348320018.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 70vh;
+ 
+}
+.input{
+  outline: none;
+  border-radius: 0px;
+  border: none;
+}
+.location{
+  width: 40%;
+}
+.restaurant{
+  background-color: white;
+  width: 58%;
+}
+.restaurant>input{
+  width:60%;
+}
+
+@media (max-width: 767px) {
+  
+
+.text{
+  text-align: center;
+  font-size: 30px;
+}
+ 
+  .main {
+      background-size: cover; 
+      height: auto; 
+  }
+  
+
+  .search {
+      width:90%;
+      margin: auto;
+      height: 40px;
+      margin-right: 20px;
+      
+  }
+  
+  .create{
+    margin: 5px 10px;
+  }
+
+  
+}
